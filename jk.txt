@@ -1,0 +1,26 @@
+context => state management tool
+components ko data pass karne ke li ye props use kar sakte he par vo sahi tarika nahi he 
+data ko centralize kardo jisko access karna he vo kar paye
+
+context is used to data provide
+
+Context:-
+        Context in React is used to share the data through the React Components without 
+passing the props manually for every level of the component tree. It allows the data to be 
+accessed globally throughout the application and enable efficient state management.
+
+Context API in React is used to share data across the components without passing the 
+props manually through every level. It allows to create global state of data providing 
+global access to all the components.
+
+App.jsx ko wrap kar denge AuthContext se.
+
+
+What is LocalStorage in ReactJS? 
+=> Within JavaScript, localStorage serves as a web browser feature that empowers 
+web applications to securely store data on a user's computer. It provides a simple 
+key-value storage mechanism that can be accessed and modified by JavaScript code running in the browser.
+
+how to open localStorage => open inspect, application, storage , localStorage
+
+how to empty a localStorage => localStorage.clear()
