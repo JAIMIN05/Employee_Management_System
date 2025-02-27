@@ -23,7 +23,7 @@ const App = () => {
       setUser(storedUserData.role);
 
       // Always update employee data when userData changes
-      if (storedUserData.role === "employee" && userData) {
+      if (storedUserData.role === "employee" && userData && userData.length > 0) {
         const freshEmployeeData = userData.find(
           (e) => e.id === storedUserData.data.id
         );
@@ -37,7 +37,7 @@ const App = () => {
             })
           );
         }
-      } else {
+      } else if (storedUserData.data) {
         setLoggedInUserData(storedUserData.data);
       }
     }

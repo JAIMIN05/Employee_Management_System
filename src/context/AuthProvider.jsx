@@ -5,11 +5,11 @@ export const AuthContext = createContext()
 
 const AuthProvider = ({children}) => {
     // localStorage.clear()
-    const [userData, setUserData] = useState(null);
+    const [userData, setUserData] = useState([]);
 
     useEffect(() => {
        const {employees} = getLocalStorage()
-       setUserData(employees) 
+       setUserData(employees || []); 
     }, [])
     
     // Add a new useEffect to update localStorage when userData changes
