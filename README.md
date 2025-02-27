@@ -2,6 +2,8 @@
 
 A comprehensive employee task management system built with React and Vite. This application allows administrators to assign tasks and employees to manage their tasks efficiently.
 
+[Live Demo](https://employee-management-system-vert-gamma.vercel.app/)
+
 ## Features
 - Admin Dashboard: Create and assign tasks to employees
 - Employee Dashboard: View and manage assigned tasks
